@@ -1,0 +1,27 @@
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+ <div style="color:red;font-size:26px">
+ <script language="JavaScript">
+ var x=prompt("podaj pierwsza liczbe =","");
+ var liczba1_tyra=parseInt(x);
+ var x=prompt("podaj pierwsza liczbe =","");
+ var liczba2_tyra=parseInt(x);
+ 
+ if(liczba1_tyra<liczba2_tyra){
+ for(i=liczba1_tyra;i<=liczba2_tyra;i++){
+ if(i%2==1){
+ document.write("<p style=\"font-size:26px;\"><br>"+i+"<br></p>");}}}
+ else if(liczba1_tyra>liczba2_tyra){
+ for(i=liczba1_tyra;i>liczba2_tyra;i--){
+ if(i%2==1){
+ document.write("<p style=\"font-size:26px;\"><br>"+i+"<br></p>");}}}
+ else if(liczba1_tyra==liczba2_tyra){
+ document.write("Brak <br>");
+ }
+ </script>
+ </div>
+</head>
+<body>
+</body>
+</html>
