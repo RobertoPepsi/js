@@ -1,0 +1,30 @@
+<html>
+<body>
+<div style="color:blue;">
+<script language="JavaScript">
+do{
+    l1_t_tyra = prompt("podaj liczbe1","");
+    l2_t_tyra = prompt("podaj liczbe2","");
+}while(((l1_t_tyra<20)||(l1_t_tyra>60))||((l2_t_tyra<20)||(l2_t_tyra>60)))
+
+pocz_tyra = +prompt("podaj wielkosc początkową","")
+tekst_tyra = prompt("podaj tekst do wyświetlenia","")
+
+if(l1_t_tyra<l2_t_tyra){
+    console.log(pocz_tyra)
+    for(i=pocz_tyra;i<100;i+=5){
+        console.log(pocz_tyra)
+        console.log(i+5)
+        document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_tyra+"<br></p>");
+        console.log("asdas")
+    }
+}else{
+    for(i=pocz_tyra;i>0;i-=5){
+        document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_tyra+"<br></p>");
+    }
+}
+
+</script>
+</div>
+</body>
+</html>
