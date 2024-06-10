@@ -1,0 +1,18 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+n_tyra = prompt("podaj liczbe","");
+silnia_tyra = 1
+
+    for(i_t=1;i_t<=n_tyra;i_t++)
+    {
+        silnia_tyra = silnia_tyra * i_t
+    }
+    document.write(silnia_tyra)
+
+
+</script>
+</div>
+</body>
+</html>
